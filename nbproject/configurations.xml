@@ -3,12 +3,16 @@
   <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
     <df root="." name="0">
       <df name="examples">
+        <df name="model_files">
+          <in>pso_ini_model.ini</in>
+        </df>
         <in>ABC.c</in>
         <in>AIWPSO.c</in>
         <in>BA.c</in>
         <in>BGSGP.c</in>
         <in>BHA.c</in>
         <in>CS.c</in>
+        <in>CS_ini.c</in>
         <in>FA.c</in>
         <in>FPA.c</in>
         <in>GA.c</in>
@@ -19,6 +23,7 @@
         <in>MBO.c</in>
         <in>PSF-HS.c</in>
         <in>PSO.c</in>
+        <in>PSO_ini.c</in>
         <in>TensorABC.c</in>
         <in>TensorAIWPSO.c</in>
         <in>TensorBA.c</in>
@@ -31,6 +36,9 @@
         <in>TensorPSF-HS.c</in>
         <in>TensorPSO.c</in>
         <in>WCA.c</in>
+      </df>
+      <df name="include">
+        <in>ini_reader.h</in>
       </df>
       <df name="src">
         <in>abc.c</in>
@@ -48,6 +56,12 @@
         <in>pso.c</in>
         <in>random.c</in>
         <in>wca.c</in>
+      </df>
+      <df name="third-party">
+        <df name="inih">
+          <in>ini.c</in>
+          <in>ini_reader.c</in>
+        </df>
       </df>
     </df>
     <logicalFolder name="ExternalFiles"
@@ -84,6 +98,7 @@
           <cTool>
             <incDir>
               <pElem>include</pElem>
+              <pElem>third-party/inih</pElem>
               <pElem>.</pElem>
             </incDir>
           </cTool>
@@ -93,127 +108,142 @@
           <preBuildCommand></preBuildCommand>
         </preBuild>
       </makefileType>
-      <item path="examples/ABC.c" ex="false" tool="0" flavor2="0">
+      <item path="examples/ABC.c" ex="false" tool="0" flavor2="2">
         <cTool flags="0">
         </cTool>
       </item>
-      <item path="examples/AIWPSO.c" ex="false" tool="0" flavor2="0">
+      <item path="examples/AIWPSO.c" ex="false" tool="0" flavor2="2">
         <cTool flags="0">
         </cTool>
       </item>
-      <item path="examples/BA.c" ex="false" tool="0" flavor2="0">
+      <item path="examples/BA.c" ex="false" tool="0" flavor2="2">
         <cTool flags="0">
         </cTool>
       </item>
-      <item path="examples/BGSGP.c" ex="false" tool="0" flavor2="0">
+      <item path="examples/BGSGP.c" ex="false" tool="0" flavor2="2">
         <cTool flags="0">
         </cTool>
       </item>
-      <item path="examples/BHA.c" ex="false" tool="0" flavor2="0">
+      <item path="examples/BHA.c" ex="false" tool="0" flavor2="2">
         <cTool flags="0">
         </cTool>
       </item>
-      <item path="examples/CS.c" ex="false" tool="0" flavor2="0">
+      <item path="examples/CS.c" ex="false" tool="0" flavor2="2">
         <cTool flags="0">
         </cTool>
       </item>
-      <item path="examples/FA.c" ex="false" tool="0" flavor2="0">
+      <item path="examples/CS_ini.c" ex="false" tool="0" flavor2="2">
         <cTool flags="0">
         </cTool>
       </item>
-      <item path="examples/FPA.c" ex="false" tool="0" flavor2="0">
+      <item path="examples/FA.c" ex="false" tool="0" flavor2="2">
         <cTool flags="0">
         </cTool>
       </item>
-      <item path="examples/GA.c" ex="false" tool="0" flavor2="0">
+      <item path="examples/FPA.c" ex="false" tool="0" flavor2="2">
         <cTool flags="0">
         </cTool>
       </item>
-      <item path="examples/GP.c" ex="false" tool="0" flavor2="0">
+      <item path="examples/GA.c" ex="false" tool="0" flavor2="2">
         <cTool flags="0">
         </cTool>
       </item>
-      <item path="examples/GSGP.c" ex="false" tool="0" flavor2="0">
+      <item path="examples/GP.c" ex="false" tool="0" flavor2="2">
         <cTool flags="0">
         </cTool>
       </item>
-      <item path="examples/HS.c" ex="false" tool="0" flavor2="0">
+      <item path="examples/GSGP.c" ex="false" tool="0" flavor2="2">
         <cTool flags="0">
         </cTool>
       </item>
-      <item path="examples/IHS.c" ex="false" tool="0" flavor2="0">
+      <item path="examples/HS.c" ex="false" tool="0" flavor2="2">
         <cTool flags="0">
         </cTool>
       </item>
-      <item path="examples/MBO.c" ex="false" tool="0" flavor2="0">
+      <item path="examples/IHS.c" ex="false" tool="0" flavor2="2">
         <cTool flags="0">
         </cTool>
       </item>
-      <item path="examples/PSF-HS.c" ex="false" tool="0" flavor2="0">
+      <item path="examples/MBO.c" ex="false" tool="0" flavor2="2">
         <cTool flags="0">
         </cTool>
       </item>
-      <item path="examples/PSO.c" ex="false" tool="0" flavor2="0">
+      <item path="examples/PSF-HS.c" ex="false" tool="0" flavor2="2">
         <cTool flags="0">
         </cTool>
       </item>
-      <item path="examples/TensorABC.c" ex="false" tool="0" flavor2="0">
+      <item path="examples/PSO.c" ex="false" tool="0" flavor2="2">
         <cTool flags="0">
         </cTool>
       </item>
-      <item path="examples/TensorAIWPSO.c" ex="false" tool="0" flavor2="0">
+      <item path="examples/PSO_ini.c" ex="false" tool="0" flavor2="2">
         <cTool flags="0">
         </cTool>
       </item>
-      <item path="examples/TensorBA.c" ex="false" tool="0" flavor2="0">
+      <item path="examples/TensorABC.c" ex="false" tool="0" flavor2="2">
         <cTool flags="0">
         </cTool>
       </item>
-      <item path="examples/TensorBHA.c" ex="false" tool="0" flavor2="0">
+      <item path="examples/TensorAIWPSO.c" ex="false" tool="0" flavor2="2">
         <cTool flags="0">
         </cTool>
       </item>
-      <item path="examples/TensorCS.c" ex="false" tool="0" flavor2="0">
+      <item path="examples/TensorBA.c" ex="false" tool="0" flavor2="2">
         <cTool flags="0">
         </cTool>
       </item>
-      <item path="examples/TensorFA.c" ex="false" tool="0" flavor2="0">
+      <item path="examples/TensorBHA.c" ex="false" tool="0" flavor2="2">
         <cTool flags="0">
         </cTool>
       </item>
-      <item path="examples/TensorFPA.c" ex="false" tool="0" flavor2="0">
+      <item path="examples/TensorCS.c" ex="false" tool="0" flavor2="2">
         <cTool flags="0">
         </cTool>
       </item>
-      <item path="examples/TensorHS.c" ex="false" tool="0" flavor2="0">
+      <item path="examples/TensorFA.c" ex="false" tool="0" flavor2="2">
         <cTool flags="0">
         </cTool>
       </item>
-      <item path="examples/TensorIHS.c" ex="false" tool="0" flavor2="0">
+      <item path="examples/TensorFPA.c" ex="false" tool="0" flavor2="2">
         <cTool flags="0">
         </cTool>
       </item>
-      <item path="examples/TensorPSF-HS.c" ex="false" tool="0" flavor2="0">
+      <item path="examples/TensorHS.c" ex="false" tool="0" flavor2="2">
         <cTool flags="0">
         </cTool>
       </item>
-      <item path="examples/TensorPSO.c" ex="false" tool="0" flavor2="0">
+      <item path="examples/TensorIHS.c" ex="false" tool="0" flavor2="2">
         <cTool flags="0">
         </cTool>
       </item>
-      <item path="examples/WCA.c" ex="false" tool="0" flavor2="0">
+      <item path="examples/TensorPSF-HS.c" ex="false" tool="0" flavor2="2">
         <cTool flags="0">
         </cTool>
       </item>
-      <item path="src/abc.c" ex="false" tool="0" flavor2="0">
+      <item path="examples/TensorPSO.c" ex="false" tool="0" flavor2="2">
         <cTool flags="0">
         </cTool>
       </item>
-      <item path="src/ba.c" ex="false" tool="0" flavor2="0">
+      <item path="examples/WCA.c" ex="false" tool="0" flavor2="2">
         <cTool flags="0">
         </cTool>
       </item>
-      <item path="src/bha.c" ex="false" tool="0" flavor2="0">
+      <item path="examples/model_files/pso_ini_model.ini"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/ini_reader.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/abc.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="src/ba.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="src/bha.c" ex="false" tool="0" flavor2="2">
         <cTool flags="0">
         </cTool>
       </item>
@@ -221,49 +251,55 @@
         <cTool flags="0">
         </cTool>
       </item>
-      <item path="src/cs.c" ex="false" tool="0" flavor2="0">
+      <item path="src/cs.c" ex="false" tool="0" flavor2="2">
         <cTool flags="0">
         </cTool>
       </item>
-      <item path="src/fa.c" ex="false" tool="0" flavor2="0">
+      <item path="src/fa.c" ex="false" tool="0" flavor2="2">
         <cTool flags="0">
         </cTool>
       </item>
-      <item path="src/fpa.c" ex="false" tool="0" flavor2="0">
+      <item path="src/fpa.c" ex="false" tool="0" flavor2="2">
         <cTool flags="0">
         </cTool>
       </item>
-      <item path="src/function.c" ex="false" tool="0" flavor2="0">
+      <item path="src/function.c" ex="false" tool="0" flavor2="2">
         <cTool flags="0">
         </cTool>
       </item>
-      <item path="src/ga.c" ex="false" tool="0" flavor2="0">
+      <item path="src/ga.c" ex="false" tool="0" flavor2="2">
         <cTool flags="0">
         </cTool>
       </item>
-      <item path="src/gp.c" ex="false" tool="0" flavor2="0">
+      <item path="src/gp.c" ex="false" tool="0" flavor2="2">
         <cTool flags="0">
         </cTool>
       </item>
-      <item path="src/hs.c" ex="false" tool="0" flavor2="0">
+      <item path="src/hs.c" ex="false" tool="0" flavor2="2">
         <cTool flags="0">
         </cTool>
       </item>
-      <item path="src/mbo.c" ex="false" tool="0" flavor2="0">
+      <item path="src/mbo.c" ex="false" tool="0" flavor2="2">
         <cTool flags="0">
         </cTool>
       </item>
-      <item path="src/pso.c" ex="false" tool="0" flavor2="0">
+      <item path="src/pso.c" ex="false" tool="0" flavor2="2">
         <cTool flags="0">
         </cTool>
       </item>
-      <item path="src/random.c" ex="false" tool="0" flavor2="0">
+      <item path="src/random.c" ex="false" tool="0" flavor2="2">
         <cTool flags="0">
         </cTool>
       </item>
-      <item path="src/wca.c" ex="false" tool="0" flavor2="0">
+      <item path="src/wca.c" ex="false" tool="0" flavor2="2">
         <cTool flags="0">
         </cTool>
+      </item>
+      <item path="third-party/inih/ini.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="third-party/inih/ini_reader.c" ex="false" tool="0" flavor2="0">
       </item>
     </conf>
   </confs>

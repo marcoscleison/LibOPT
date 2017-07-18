@@ -1,0 +1,499 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+A	include/common.h	/^    double A; \/* loudness *\/$/;"	m	struct:Agent_
+A	include/common.h	/^    double A; \/* loudness *\/$/;"	m	struct:SearchSpace_
+ABC_H	include/abc.h	4;"	d
+AM	include/random.h	8;"	d
+AM	src/random.c	49;"	d	file:
+Ackley_First	src/function.c	/^double Ackley_First(Agent *a, va_list arg){$/;"	f
+Ackley_Second	src/function.c	/^double Ackley_Second(Agent *a, va_list arg){$/;"	f
+Ackley_Third	src/function.c	/^double Ackley_Third(Agent *a, va_list arg){$/;"	f
+Adjiman	src/function.c	/^double Adjiman(Agent *a, va_list arg){$/;"	f
+Agent	include/common.h	/^}Agent;$/;"	t	typeref:struct:Agent_
+Agent_	include/common.h	/^typedef struct Agent_{$/;"	s
+AllocateTensor	src/common.c	/^double **AllocateTensor(int n, int tensor_id) {$/;"	f
+Alpine_First	src/function.c	/^double Alpine_First(Agent *a, va_list arg){$/;"	f
+Alpine_Second	src/function.c	/^double Alpine_Second(Agent *a, va_list arg){$/;"	f
+AppendIniItems	third-party/inih/ini_reader.c	/^IniItems* AppendIniItems(IniItems* self, IniItems* item) {$/;"	f
+AppendIniItemsValues	third-party/inih/ini_reader.c	/^IniItems* AppendIniItemsValues(IniItems* self, const char *section, const char *key, const char *value) {$/;"	f
+BA_H	include/ba.h	4;"	d
+BHA_H	include/bha.h	4;"	d
+Bartels_Conn	src/function.c	/^double Bartels_Conn(Agent *a, va_list arg){$/;"	f
+Beale	src/function.c	/^double Beale(Agent *a, va_list arg){$/;"	f
+Biggs_EXP2	src/function.c	/^double Biggs_EXP2(Agent *a, va_list arg){$/;"	f
+Biggs_EXP3	src/function.c	/^double Biggs_EXP3(Agent *a, va_list arg){$/;"	f
+Biggs_EXP4	src/function.c	/^double Biggs_EXP4(Agent *a, va_list arg){$/;"	f
+Biggs_EXP5	src/function.c	/^double Biggs_EXP5(Agent *a, va_list arg){$/;"	f
+Biggs_EXP6	src/function.c	/^double Biggs_EXP6(Agent *a, va_list arg){$/;"	f
+Bird	src/function.c	/^double Bird(Agent *a, va_list arg){$/;"	f
+Bohachevsky_First	src/function.c	/^double Bohachevsky_First(Agent *a, va_list arg){$/;"	f
+Bohachevsky_Second	src/function.c	/^double Bohachevsky_Second(Agent *a, va_list arg){$/;"	f
+Bohachevsky_Third	src/function.c	/^double Bohachevsky_Third(Agent *a, va_list arg){$/;"	f
+Booth	src/function.c	/^double Booth(Agent *a, va_list arg){$/;"	f
+Box_Betts	src/function.c	/^double Box_Betts(Agent *a, va_list arg){$/;"	f
+Brent	src/function.c	/^double Brent(Agent *a, va_list arg){$/;"	f
+Brown	src/function.c	/^double Brown(Agent *a, va_list arg){$/;"	f
+Bukin_Forth	src/function.c	/^double Bukin_Forth(Agent *a, va_list arg){$/;"	f
+Bukin_Second	src/function.c	/^double Bukin_Second(Agent *a, va_list arg){$/;"	f
+Bukin_Sixth	src/function.c	/^double Bukin_Sixth(Agent *a, va_list arg){$/;"	f
+CC	Makefile	/^CC=gcc$/;"	m
+CFLAGS	Makefile	/^CFLAGS=''$/;"	m
+COMMON_H	include/common.h	2;"	d
+CONSTANT	include/opt.h	31;"	d
+CS_H	include/cs.h	4;"	d
+Carrom_Table	src/function.c	/^double Carrom_Table(Agent *a, va_list arg){$/;"	f
+CheckAgentLimits	src/common.c	/^void CheckAgentLimits(SearchSpace *s, Agent *a) {$/;"	f
+CheckSearchSpace	src/common.c	/^char CheckSearchSpace(SearchSpace *s, int opt_id) {$/;"	f
+CheckTensorLimits	src/common.c	/^void CheckTensorLimits(SearchSpace *s, double **t, int tensor_id) {$/;"	f
+Chen_Bird	src/function.c	/^double Chen_Bird(Agent *a, va_list arg){$/;"	f
+Chen_V	src/function.c	/^double Chen_V(Agent *a, va_list arg){$/;"	f
+Chichinadze	src/function.c	/^double Chichinadze(Agent *a, va_list arg){$/;"	f
+Chung_Reynolds	src/function.c	/^double Chung_Reynolds(Agent *a, va_list arg){$/;"	f
+Colville	src/function.c	/^double Colville(Agent *a, va_list arg){$/;"	f
+ComputeSuccess	src/pso.c	/^double ComputeSuccess(SearchSpace *s){$/;"	f
+CopyAgent	src/common.c	/^Agent *CopyAgent(Agent *a, int opt_id) {$/;"	f
+CopyTensor	src/common.c	/^double **CopyTensor(double **t, int n, int tensor_id) {$/;"	f
+CopyTree	src/common.c	/^Node *CopyTree(Node *T) {$/;"	f
+CreateAgent	src/common.c	/^Agent *CreateAgent(int n, int opt_id) {$/;"	f
+CreateNode	src/common.c	/^Node *CreateNode(char *value, int node_id, char status, ...) {$/;"	f
+CreateSearchSpace	src/common.c	/^SearchSpace *CreateSearchSpace(int m, int n, int opt_id, ...) {$/;"	f
+Cross_Tray	src/function.c	/^double Cross_Tray(Agent *a, va_list arg){$/;"	f
+Crossover	src/common.c	/^Node **Crossover(Node *Father, Node *Mother, float p) {$/;"	f
+Csendes	src/function.c	/^double Csendes(Agent *a, va_list arg){$/;"	f
+Cube	src/function.c	/^double Cube(Agent *a, va_list arg){$/;"	f
+Damavandi	src/function.c	/^double Damavandi(Agent *a, va_list arg){$/;"	f
+Data	include/common.h	/^}Data;$/;"	t	typeref:struct:_Data
+DeallocateTensor	src/common.c	/^void DeallocateTensor(double ***t, int n) {$/;"	f
+Deckkers_Aarts	src/function.c	/^double Deckkers_Aarts(Agent *a, va_list arg){$/;"	f
+DestroyAgent	src/common.c	/^void DestroyAgent(Agent **a, int opt_id) {$/;"	f
+DestroySearchSpace	src/common.c	/^void DestroySearchSpace(SearchSpace **s, int opt_id) {$/;"	f
+DestroyTree	src/common.c	/^void DestroyTree(Node **T) {$/;"	f
+Dixon_Price	src/function.c	/^double Dixon_Price(Agent *a, va_list arg){$/;"	f
+EPS	include/random.h	18;"	d
+EPS	src/random.c	59;"	d	file:
+EXP_2	src/function.c	/^double EXP_2(Agent *a, va_list arg){$/;"	f
+Easom	src/function.c	/^double Easom(Agent *a, va_list arg){$/;"	f
+Eggcrate	src/function.c	/^double Eggcrate(Agent *a, va_list arg){$/;"	f
+Eggholder	src/function.c	/^double Eggholder(Agent *a, va_list arg){$/;"	f
+ElAttar_VidyasagarDutta	src/function.c	/^double ElAttar_VidyasagarDutta(Agent *a, va_list arg){$/;"	f
+EuclideanDistance	src/common.c	/^double EuclideanDistance(double *x, double *y, int n) {$/;"	f
+EvaluateSearchSpace	src/common.c	/^void EvaluateSearchSpace(SearchSpace *s, int opt_id, prtFun Evaluate, va_list arg) {$/;"	f
+EvaluateTensorSearchSpace	src/common.c	/^void EvaluateTensorSearchSpace(SearchSpace *s, int opt_id, int tensor_id, prtFun Evaluate, va_list arg) {$/;"	f
+Exponential	src/function.c	/^double Exponential(Agent *a, va_list arg){$/;"	f
+FA_H	include/fa.h	4;"	d
+FLAGS	Makefile	/^FLAGS=  -g -O0$/;"	m
+FPA_H	include/fpa.h	4;"	d
+FUNCTION	include/opt.h	30;"	d
+FlowIntensity	src/wca.c	/^int *FlowIntensity(SearchSpace *s){$/;"	f
+Freudenstein_Roth	src/function.c	/^double Freudenstein_Roth(Agent *a, va_list arg){$/;"	f
+GA_H	include/ga.h	2;"	d
+GP_H	include/gp.h	2;"	d
+GROW	src/common.c	/^Node *GROW(SearchSpace *s, int min_depth, int max_depth) {$/;"	f
+GenerateGaussianRandomNumber	src/common.c	/^double GenerateGaussianRandomNumber(double mean, double variance) {$/;"	f
+GenerateLevyDistribution	src/common.c	/^double *GenerateLevyDistribution(int n, double beta) {$/;"	f
+GenerateNewAgent	src/common.c	/^Agent *GenerateNewAgent(SearchSpace *s, int opt_id) {$/;"	f
+GenerateNewBatTensor	src/ba.c	/^double **GenerateNewBatTensor(SearchSpace *s, int tensor_id){$/;"	f
+GenerateNewPSF	src/hs.c	/^Agent *GenerateNewPSF(SearchSpace *s, double *HMCR, double *PAR, char *op_type){$/;"	f
+GenerateNewPSFTensor	src/hs.c	/^double **GenerateNewPSFTensor(SearchSpace *s, int tensor_id, double **HMCR, double **PAR, char **op_type){$/;"	f
+GenerateNewTensor	src/common.c	/^double **GenerateNewTensor(SearchSpace *s, int tensor_id) {$/;"	f
+GenerateUniformRandomNumber	src/common.c	/^double GenerateUniformRandomNumber(double low, double high) {$/;"	f
+Giunta	src/function.c	/^double Giunta(Agent *a, va_list arg){$/;"	f
+Goldstein_Price	src/function.c	/^double Goldstein_Price(Agent *a, va_list arg){$/;"	f
+Griewank	src/function.c	/^double Griewank(Agent *a, va_list arg){$/;"	f
+Gulf_Research	src/function.c	/^double Gulf_Research(Agent *a, va_list arg){$/;"	f
+HANDLER	third-party/inih/ini.c	107;"	d	file:
+HMCR	include/common.h	/^    double HMCR; \/* harmony memory considering rate *\/$/;"	m	struct:SearchSpace_
+HS_H	include/hs.h	4;"	d
+Helical_Valley	src/function.c	/^double Helical_Valley(Agent *a, va_list arg){$/;"	f
+Himmelblau	src/function.c	/^double Himmelblau(Agent *a, va_list arg){$/;"	f
+Holder_Table_First	src/function.c	/^double Holder_Table_First(Agent *a, va_list arg){$/;"	f
+Holder_Table_Second	src/function.c	/^double Holder_Table_Second(Agent *a, va_list arg){$/;"	f
+Hosaki	src/function.c	/^double Hosaki(Agent *a, va_list arg){$/;"	f
+IA1	include/random.h	10;"	d
+IA1	src/random.c	51;"	d	file:
+IA2	include/random.h	11;"	d
+IA2	src/random.c	52;"	d	file:
+IM1	include/random.h	6;"	d
+IM1	src/random.c	47;"	d	file:
+IM2	include/random.h	7;"	d
+IM2	src/random.c	48;"	d	file:
+IMM1	include/random.h	9;"	d
+IMM1	src/random.c	50;"	d	file:
+INCLUDE	Makefile	/^INCLUDE=.\/include$/;"	m
+INCLUDE_THIRD_PARTY	Makefile	/^INCLUDE_THIRD_PARTY= -I ${INCLUDE_THIRD_PARTY_INIH} $/;"	m
+INCLUDE_THIRD_PARTY_INIH	Makefile	/^INCLUDE_THIRD_PARTY_INIH=.\/third-party\/inih$/;"	m
+INI_ALLOW_BOM	third-party/inih/ini.h	78;"	d
+INI_ALLOW_INLINE_COMMENTS	third-party/inih/ini.h	85;"	d
+INI_ALLOW_MULTILINE	third-party/inih/ini.h	72;"	d
+INI_HANDLER_LINENO	third-party/inih/ini.h	22;"	d
+INI_INLINE_COMMENT_PREFIXES	third-party/inih/ini.h	88;"	d
+INI_MAX_LINE	third-party/inih/ini.h	103;"	d
+INI_REDER_H	include/ini_reader.h	9;"	d
+INI_STOP_ON_FIRST_ERROR	third-party/inih/ini.h	98;"	d
+INI_USE_STACK	third-party/inih/ini.h	93;"	d
+IQ1	include/random.h	12;"	d
+IQ1	src/random.c	53;"	d	file:
+IQ2	include/random.h	13;"	d
+IQ2	src/random.c	54;"	d	file:
+IR1	include/random.h	14;"	d
+IR1	src/random.c	55;"	d	file:
+IR2	include/random.h	15;"	d
+IR2	src/random.c	56;"	d	file:
+ImproveBirds	src/mbo.c	/^void ImproveBirds(SearchSpace *s){$/;"	f
+IniConfiguration	src/common.c	/^} IniConfiguration;$/;"	t	typeref:struct:__anon2	file:
+IniFileHandle	third-party/inih/ini_reader.c	/^static int IniFileHandle(void* data, const char* section, const char* name,$/;"	f	file:
+IniItems	include/ini_reader.h	/^    } IniItems;$/;"	t	typeref:struct:_IniItems
+IniKeyExists	third-party/inih/ini_reader.c	/^int IniKeyExists(IniItems* self, const char *section, const char *key) {$/;"	f
+IniKeyNonNullExists	third-party/inih/ini_reader.c	/^int IniKeyNonNullExists(IniItems* self, const char *section, const char *key) {$/;"	f
+IniKeyNonNullExistsOrAbort	third-party/inih/ini_reader.c	/^int IniKeyNonNullExistsOrAbort(IniItems* self, const char *section, const char *key, const char *msg) {$/;"	f
+InitializeSearchSpace	src/common.c	/^void InitializeSearchSpace(SearchSpace *s, int opt_id) {$/;"	f
+InitializeTensorSearchSpace	src/common.c	/^void InitializeTensorSearchSpace(SearchSpace *s, int tensor_id) {$/;"	f
+Jennrick_Sampson	src/function.c	/^double Jennrick_Sampson(Agent *a, va_list arg){$/;"	f
+Keane	src/function.c	/^double Keane(Agent *a, va_list arg){$/;"	f
+LB	include/common.h	/^    double *LB; \/* lower boundaries of each decision variable *\/$/;"	m	struct:SearchSpace_
+LIB	Makefile	/^LIB=.\/lib$/;"	m
+LINE_SIZE	include/common.h	7;"	d
+Leon	src/function.c	/^double Leon(Agent *a, va_list arg){$/;"	f
+Levy	src/function.c	/^double Levy(Agent *a, va_list arg){$/;"	f
+Levy_Thirteenth	src/function.c	/^double Levy_Thirteenth(Agent *a, va_list arg){$/;"	f
+LoadIniFile	third-party/inih/ini_reader.c	/^IniItems* LoadIniFile(const char *filepath) {$/;"	f
+Logistic_Sigmoid	src/function.c	/^double Logistic_Sigmoid(double x){$/;"	f
+M	include/common.h	/^    int M; \/* number of tours, i.e., the number of iterations for the leader *\/$/;"	m	struct:SearchSpace_
+MATCH	include/ini_reader.h	16;"	d
+MAX_NAME	third-party/inih/ini.c	26;"	d	file:
+MAX_SECTION	third-party/inih/ini.c	25;"	d	file:
+MBO_H	include/mbo.h	4;"	d
+Matyas	src/function.c	/^double Matyas(Agent *a, va_list arg){$/;"	f
+McCormick	src/function.c	/^double McCormick(Agent *a, va_list arg){$/;"	f
+Miele_Cantrell	src/function.c	/^double Miele_Cantrell(Agent *a, va_list arg){$/;"	f
+Mutation	src/common.c	/^Node *Mutation(SearchSpace *s, Node *T, float p) {$/;"	f
+NDIV	include/random.h	17;"	d
+NDIV	src/random.c	58;"	d	file:
+NEW_TERMINAL	include/opt.h	32;"	d
+NTAB	include/random.h	16;"	d
+NTAB	src/random.c	57;"	d	file:
+N_ARGS_FUNCTION	src/common.c	/^const int N_ARGS_FUNCTION[] = {2, 2, 2, 2, 1, 1, 1, 1, 2, 2, 2, 1};$/;"	v
+N_CONSTANTS	include/opt.h	37;"	d
+NestLossParameter	src/cs.c	/^int NestLossParameter(int size, float probability){$/;"	f
+NewIniItems	third-party/inih/ini_reader.c	/^IniItems* NewIniItems() {$/;"	f
+NewIniItemsValues	third-party/inih/ini_reader.c	/^IniItems* NewIniItemsValues(const char *section, const char *key, const char *value) {$/;"	f
+Node	include/common.h	/^}Node;$/;"	t	typeref:struct:_Node
+OBJ	Makefile	/^OBJ=.\/obj$/;"	m
+OBJ_THIRD_PARTY	Makefile	/^OBJ_THIRD_PARTY=.\/obj\/third-party$/;"	m
+PAR	include/common.h	/^    double PAR; \/* pitch adjusting rate *\/$/;"	m	struct:SearchSpace_
+PAR_max	include/common.h	/^    double PAR_min, PAR_max; \/* minimum and maximum pitch adjusting rate *\/$/;"	m	struct:SearchSpace_
+PAR_min	include/common.h	/^    double PAR_min, PAR_max; \/* minimum and maximum pitch adjusting rate *\/$/;"	m	struct:SearchSpace_
+PROB_CROSSOVER_FUNCTION	include/opt.h	39;"	d
+PROB_MUTATION_FUNCTION	include/opt.h	38;"	d
+PSF_MEMORY	include/hs.h	9;"	d
+PSF_PITCH	include/hs.h	10;"	d
+PSF_RANDOM	include/hs.h	8;"	d
+PSO_H	include/pso.h	5;"	d
+Parsopoulos	src/function.c	/^double Parsopoulos(Agent *a, va_list arg){$/;"	f
+Pathological	src/function.c	/^double Pathological(Agent *a, va_list arg){$/;"	f
+Paviani	src/function.c	/^double Paviani(Agent *a, va_list arg){$/;"	f
+Pen_Holder	src/function.c	/^double Pen_Holder(Agent *a, va_list arg){$/;"	f
+Periodic	src/function.c	/^double Periodic(Agent *a, va_list arg){$/;"	f
+Powell_Sum	src/function.c	/^double Powell_Sum(Agent *a, va_list arg){$/;"	f
+PreFixPositioningTree	src/common.c	/^Node *PreFixPositioningTree(Node *T, int pos, char *left_son, int status, int *ctr) {$/;"	f
+PreFixPrintTree4File	src/common.c	/^void PreFixPrintTree4File(SearchSpace *s, Node *T, FILE *fp) {$/;"	f
+PreFixTravel4Copy	src/common.c	/^void PreFixTravel4Copy(Node *T, Node *Parent) {$/;"	f
+Price_First	src/function.c	/^double Price_First(Agent *a, va_list arg){$/;"	f
+Price_Forth	src/function.c	/^double Price_Forth(Agent *a, va_list arg){$/;"	f
+Price_Second	src/function.c	/^double Price_Second(Agent *a, va_list arg){$/;"	f
+Price_Third	src/function.c	/^double Price_Third(Agent *a, va_list arg){$/;"	f
+PrintIniItems	third-party/inih/ini_reader.c	/^void PrintIniItems(IniItems* self) {$/;"	f
+PrintTree2File	src/common.c	/^void PrintTree2File(SearchSpace *s, Node *T, char *fileName) {$/;"	f
+Qing	src/function.c	/^double Qing(Agent *a, va_list arg){$/;"	f
+Quadratic	src/function.c	/^double Quadratic(Agent *a, va_list arg){$/;"	f
+Quartic	src/function.c	/^double Quartic(Agent *a, va_list arg){$/;"	f
+Quintic	src/function.c	/^double Quintic(Agent *a, va_list arg){$/;"	f
+RANDOM_H	include/random.h	2;"	d
+RNMX	include/random.h	19;"	d
+RNMX	src/random.c	60;"	d	file:
+RainingProcess	src/wca.c	/^void RainingProcess(SearchSpace *s, int *flow){$/;"	f
+Rastrigin	src/function.c	/^double Rastrigin(Agent *a, va_list arg){$/;"	f
+ReadSearchSpaceFromFile	src/common.c	/^SearchSpace *ReadSearchSpaceFromFile(char *fileName, int opt_id) {$/;"	f
+ReadSearchSpaceFromIniFile	src/common.c	/^SearchSpace *ReadSearchSpaceFromIniFile(char *fileName) {$/;"	f
+Rosenbrock	src/function.c	/^double Rosenbrock(Agent *a, va_list arg){$/;"	f
+Rotated_Ellipsoid_1	src/function.c	/^double Rotated_Ellipsoid_1(Agent *a, va_list arg){$/;"	f
+Rotated_Ellipsoid_2	src/function.c	/^double Rotated_Ellipsoid_2(Agent *a, va_list arg){$/;"	f
+RouletteSelection	src/common.c	/^int *RouletteSelection(SearchSpace *s, int k) {$/;"	f
+Rump	src/function.c	/^double Rump(Agent *a, va_list arg){$/;"	f
+RunTree	src/common.c	/^double *RunTree(SearchSpace *s, Node *T) {$/;"	f
+SGMB	src/common.c	/^Node *SGMB(SearchSpace *s, Node *T_tmp) {$/;"	f
+SGME	src/common.c	/^Node *SGME(SearchSpace *s, Node *T1_tmp, Node *T2_tmp) {$/;"	f
+SGXB	src/common.c	/^Node *SGXB(SearchSpace *s, Node *T1_tmp, Node *T2_tmp) {$/;"	f
+SGXE	src/common.c	/^Node *SGXE(SearchSpace *s, Node *T1_tmp, Node *T2_tmp) {$/;"	f
+SRC	Makefile	/^SRC=.\/src$/;"	m
+SRC_THIRD_PARTY	Makefile	/^SRC_THIRD_PARTY=.\/third-party$/;"	m
+Salomon	src/function.c	/^double Salomon(Agent *a, va_list arg){$/;"	f
+Schaffer_First	src/function.c	/^double Schaffer_First(Agent *a, va_list arg){$/;"	f
+Schaffer_Forth	src/function.c	/^double Schaffer_Forth(Agent *a, va_list arg){$/;"	f
+Schaffer_Second	src/function.c	/^double Schaffer_Second(Agent *a, va_list arg){$/;"	f
+Schaffer_Third	src/function.c	/^double Schaffer_Third(Agent *a, va_list arg){$/;"	f
+Schewefel	src/function.c	/^double Schewefel(Agent *a, va_list arg){$/;"	f
+Schmidt_Vetters	src/function.c	/^double Schmidt_Vetters(Agent *a, va_list arg){$/;"	f
+Schumer_Steiglitz	src/function.c	/^double Schumer_Steiglitz(Agent *a, va_list arg){$/;"	f
+SearchSpace	include/common.h	/^}SearchSpace;$/;"	t	typeref:struct:SearchSpace_
+SearchSpace_	include/common.h	/^typedef struct SearchSpace_{$/;"	s
+SetBatFrequency	src/ba.c	/^void SetBatFrequency(SearchSpace *s, int i){$/;"	f
+SetTensorBatFrequency	src/ba.c	/^void SetTensorBatFrequency(SearchSpace *s, int i){$/;"	f
+ShareNeighbours	src/mbo.c	/^void ShareNeighbours(SearchSpace *s){$/;"	f
+ShowSearchSpace	src/common.c	/^void ShowSearchSpace(SearchSpace *s, int opt_id) {$/;"	f
+ShowTensorSearchSpace	src/common.c	/^void ShowTensorSearchSpace(SearchSpace *s, int tensor_id) {$/;"	f
+Six_HumpCamel	src/function.c	/^double Six_HumpCamel(Agent *a, va_list arg){$/;"	f
+SortAgent	src/common.c	/^int SortAgent(const void *a, const void *b) {$/;"	f
+SortDataByVal	src/common.c	/^int SortDataByVal(const void *a, const void *b) {$/;"	f
+Sphere	src/function.c	/^double Sphere(Agent *a, va_list arg){$/;"	f
+Streched_V_SineWave	src/function.c	/^double Streched_V_SineWave(Agent *a, va_list arg){$/;"	f
+Styblinski_Tang	src/function.c	/^double Styblinski_Tang(Agent *a, va_list arg){$/;"	f
+Sum_DifferentPowers	src/function.c	/^double Sum_DifferentPowers(Agent *a, va_list arg){$/;"	f
+Sum_Squares	src/function.c	/^double Sum_Squares(Agent *a, va_list arg){$/;"	f
+T	include/common.h	/^    Node **T; \/* pointer to the tree *\/$/;"	m	struct:SearchSpace_
+TERMINAL	include/opt.h	29;"	d
+TERMINAL_LENGTH	include/opt.h	33;"	d
+TensorEuclideanDistance	src/common.c	/^double TensorEuclideanDistance(double **t, double **s, int n, int tensor_id) {$/;"	f
+TensorNorm	src/common.c	/^double TensorNorm(double *t, int tensor_id) {$/;"	f
+TensorSpan	src/common.c	/^double TensorSpan(double L, double U, double *t, int tensor_id) {$/;"	f
+Testtube_Holder	src/function.c	/^double Testtube_Holder(Agent *a, va_list arg){$/;"	f
+Three_HumpCamel	src/function.c	/^double Three_HumpCamel(Agent *a, va_list arg){$/;"	f
+Trecanni	src/function.c	/^double Trecanni(Agent *a, va_list arg){$/;"	f
+Trefethen	src/function.c	/^double Trefethen(Agent *a, va_list arg){$/;"	f
+Trigonometric_1	src/function.c	/^double Trigonometric_1(Agent *a, va_list arg){$/;"	f
+Trigonometric_2	src/function.c	/^double Trigonometric_2(Agent *a, va_list arg){$/;"	f
+UB	include/common.h	/^    double *UB; \/* upper boundaries of each decision variable *\/$/;"	m	struct:SearchSpace_
+UpdateBatVelocity	src/ba.c	/^void UpdateBatVelocity(SearchSpace *s, int i){$/;"	f
+UpdateIndividualHMCR_PAR	src/hs.c	/^void UpdateIndividualHMCR_PAR(SearchSpace *s, char **rehearsal, double *HMCR, double *PAR){$/;"	f
+UpdateIndividualTensorHMCR_PAR	src/hs.c	/^void UpdateIndividualTensorHMCR_PAR(SearchSpace *s, int tensor_id, char ***rehearsal, double **HMCR, double **PAR){$/;"	f
+UpdateNeighbours	src/mbo.c	/^void UpdateNeighbours(SearchSpace *s, int b, int k, prtFun Evaluate, va_list arg){$/;"	f
+UpdateParticlePosition	src/pso.c	/^void UpdateParticlePosition(SearchSpace *s, int i){$/;"	f
+UpdateParticleVelocity	src/pso.c	/^void UpdateParticleVelocity(SearchSpace *s, int i){$/;"	f
+UpdateRiverPosition	src/wca.c	/^void UpdateRiverPosition(SearchSpace *s, double c){$/;"	f
+UpdateStreamPosition	src/wca.c	/^void UpdateStreamPosition(SearchSpace *s, int *flow, double c){$/;"	f
+UpdateTensorBatVelocity	src/ba.c	/^void UpdateTensorBatVelocity(SearchSpace *s, int i, int tensor_id){$/;"	f
+UpdateTensorParticlePosition	src/pso.c	/^void UpdateTensorParticlePosition(SearchSpace *s, int i, int tensor_id){$/;"	f
+UpdateTensorParticleVelocity	src/pso.c	/^void UpdateTensorParticleVelocity(SearchSpace *s, int i, int tensor_id){$/;"	f
+Venter_Sobiezcczanski	src/function.c	/^double Venter_Sobiezcczanski(Agent *a, va_list arg){$/;"	f
+WCA_H	include/wca.h	2;"	d
+WaiveComment	src/common.c	/^void WaiveComment(FILE *fp) {$/;"	f
+Watson	src/function.c	/^double Watson(Agent *a, va_list arg){$/;"	f
+Wavy	src/function.c	/^double Wavy(Agent *a, va_list arg){$/;"	f
+Wayburn_Seader_1	src/function.c	/^double Wayburn_Seader_1(Agent *a, va_list arg){$/;"	f
+Wayburn_Seader_2	src/function.c	/^double Wayburn_Seader_2(Agent *a, va_list arg){$/;"	f
+Wayburn_Seader_3	src/function.c	/^double Wayburn_Seader_3(Agent *a, va_list arg){$/;"	f
+X	include/common.h	/^    int X; \/* number of neighbour solutions to be shared with the next solution *\/$/;"	m	struct:SearchSpace_
+XinShe_Yang_1	src/function.c	/^double XinShe_Yang_1(Agent *a, va_list arg){$/;"	f
+XinShe_Yang_2	src/function.c	/^double XinShe_Yang_2(Agent *a, va_list arg){$/;"	f
+XinShe_Yang_3	src/function.c	/^double XinShe_Yang_3(Agent *a, va_list arg){$/;"	f
+XinShe_Yang_4	src/function.c	/^double XinShe_Yang_4(Agent *a, va_list arg){$/;"	f
+Zakharov	src/function.c	/^double Zakharov(Agent *a, va_list arg){$/;"	f
+Zettl	src/function.c	/^double Zettl(Agent *a, va_list arg){$/;"	f
+Zirilli	src/function.c	/^double Zirilli(Agent *a, va_list arg){$/;"	f
+_ABC_	include/opt.h	19;"	d
+_ABS_	include/opt.h	49;"	d
+_AND_	include/opt.h	50;"	d
+_BA_	include/opt.h	10;"	d
+_BHA_	include/opt.h	16;"	d
+_CRT_SECURE_NO_WARNINGS	third-party/inih/ini.c	12;"	d	file:
+_CS_	include/opt.h	13;"	d
+_DIV_	include/opt.h	45;"	d
+_Data	include/common.h	/^typedef struct _Data{$/;"	s
+_EXP_	include/opt.h	46;"	d
+_FA_	include/opt.h	12;"	d
+_FPA_	include/opt.h	11;"	d
+_FUNCTION_H_	include/function.h	2;"	d
+_GA_	include/opt.h	15;"	d
+_GP_	include/opt.h	14;"	d
+_HS_	include/opt.h	20;"	d
+_IniItems	include/ini_reader.h	/^    typedef struct _IniItems {$/;"	s
+_LOG_	include/opt.h	48;"	d
+_MBO_	include/opt.h	18;"	d
+_MUL_	include/opt.h	44;"	d
+_NOT_	include/opt.h	53;"	d
+_Node	include/common.h	/^typedef struct _Node{$/;"	s
+_OCTONION_	include/opt.h	25;"	d
+_OPT_H_	include/opt.h	2;"	d
+_OR_	include/opt.h	51;"	d
+_PSO_	include/opt.h	9;"	d
+_QUATERNION_	include/opt.h	24;"	d
+_SQRT_	include/opt.h	47;"	d
+_SUB_	include/opt.h	43;"	d
+_SUM_	include/opt.h	42;"	d
+_WCA_	include/opt.h	17;"	d
+_XOR_	include/opt.h	52;"	d
+__INI_H__	third-party/inih/ini.h	11;"	d
+a	include/common.h	/^    Agent **a; \/* array of pointers to agents *\/$/;"	m	struct:SearchSpace_
+algorithm	src/common.c	/^    const char* algorithm;$/;"	m	struct:__anon2	file:
+algorithm_id	include/common.h	/^    int algorithm_id;$/;"	m	struct:SearchSpace_
+alpha	include/common.h	/^    double alpha; \/* randomized parameter *\/$/;"	m	struct:SearchSpace_
+best	include/common.h	/^    int best; \/* index of the best agent *\/$/;"	m	struct:SearchSpace_
+beta	include/common.h	/^    double beta; \/* used to compute the step based on Levy Flight *\/$/;"	m	struct:SearchSpace_
+beta_0	include/common.h	/^    double beta_0; \/* attractiveness *\/$/;"	m	struct:SearchSpace_
+bw	include/common.h	/^    double bw; \/* bandwidth *\/$/;"	m	struct:SearchSpace_
+bw_max	include/common.h	/^    double bw_min, bw_max; \/* minimum and maximum bandwidth *\/$/;"	m	struct:SearchSpace_
+bw_min	include/common.h	/^    double bw_min, bw_max; \/* minimum and maximum bandwidth *\/$/;"	m	struct:SearchSpace_
+c1	include/common.h	/^    double c1; \/* c1 parameter *\/$/;"	m	struct:SearchSpace_
+c2	include/common.h	/^    double c2; \/* c2 parameter *\/$/;"	m	struct:SearchSpace_
+constant	include/common.h	/^    double **constant; \/* matrix with the random constants *\/$/;"	m	struct:SearchSpace_
+dmax	include/common.h	/^    double dmax; \/* raining process maximum distance *\/$/;"	m	struct:SearchSpace_
+elem	include/common.h	/^    char *elem; \/* Content of the node *\/$/;"	m	struct:_Node
+email	src/common.c	/^    const char* email;$/;"	m	struct:__anon2	file:
+f	include/common.h	/^    double f; \/* frequency *\/$/;"	m	struct:Agent_
+f_ABS_	src/function.c	/^double *f_ABS_(double *x, int n){$/;"	f
+f_AND_	src/function.c	/^double *f_AND_(double *x, double *y, int n){$/;"	f
+f_DIV_	src/function.c	/^double *f_DIV_(double *x, double *y, int n){$/;"	f
+f_EXP_	src/function.c	/^double *f_EXP_(double *x, int n){$/;"	f
+f_LOG_	src/function.c	/^double *f_LOG_(double *x, int n){$/;"	f
+f_MUL_	src/function.c	/^double *f_MUL_(double *x, double *y, int n){$/;"	f
+f_NOT_	src/function.c	/^double *f_NOT_(double *x, int n){$/;"	f
+f_OR_	src/function.c	/^double *f_OR_(double *x, double *y, int n){$/;"	f
+f_SQRT_	src/function.c	/^double *f_SQRT_(double *x, int n){$/;"	f
+f_SUB_	src/function.c	/^double *f_SUB_(double *x, double *y, int n){$/;"	f
+f_SUM_	src/function.c	/^double *f_SUM_(double *x, double *y, int n){$/;"	f
+f_XOR_	src/function.c	/^double *f_XOR_(double *x, double *y, int n){$/;"	f
+f_max	include/common.h	/^    double f_max; \/* maximum frequency *\/$/;"	m	struct:SearchSpace_
+f_min	include/common.h	/^    double f_min; \/* minimum frequency *\/$/;"	m	struct:SearchSpace_
+find_chars_or_comment	third-party/inih/ini.c	/^static char* find_chars_or_comment(const char* s, const char* chars)$/;"	f	file:
+fit	include/common.h	/^    double fit; \/* fitness value *\/$/;"	m	struct:Agent_
+function	include/common.h	/^    char **function; \/* matrix with the functions' names *\/$/;"	m	struct:SearchSpace_
+g	include/common.h	/^    double *g; \/* global best agent *\/$/;"	m	struct:SearchSpace_
+gamma	include/common.h	/^    double gamma; \/* light absorption *\/$/;"	m	struct:SearchSpace_
+getFUNCTIONid	src/common.c	/^int getFUNCTIONid(char *s) {$/;"	f
+getIniArrayAsFloat	third-party/inih/ini_reader.c	/^float getIniArrayAsFloat(IniItems* self, const char *section, const char *key, int index, float _default) {$/;"	f
+getIniItem	third-party/inih/ini_reader.c	/^const char* getIniItem(IniItems* self, const char *section, const char *key) {$/;"	f
+getIniValueAsFloat	third-party/inih/ini_reader.c	/^float getIniValueAsFloat(IniItems* self, const char *section, const char *key, float _default) {$/;"	f
+getIniValueAsInt	third-party/inih/ini_reader.c	/^int getIniValueAsInt(IniItems* self, const char *section, const char *key, int _default) {$/;"	f
+getIniValueAsString	third-party/inih/ini_reader.c	/^const char* getIniValueAsString(IniItems* self, const char *section, const char *key, const char *_default) {$/;"	f
+getSizeTree	src/common.c	/^int getSizeTree(Node *T) {$/;"	f
+gfit	include/common.h	/^    double gfit; \/* global best fitness *\/$/;"	m	struct:SearchSpace_
+id	include/common.h	/^    int id; \/* Identifier of the node (its position in the array of nodes -- it depends on its status) *\/$/;"	m	struct:_Node
+id	include/common.h	/^    int id;$/;"	m	struct:_Data
+ini_handler	third-party/inih/ini.h	/^typedef int (*ini_handler)(void* user, const char* section,$/;"	t
+ini_parse	third-party/inih/ini.c	/^int ini_parse(const char* filename, ini_handler handler, void* user)$/;"	f
+ini_parse_file	third-party/inih/ini.c	/^int ini_parse_file(FILE* file, ini_handler handler, void* user)$/;"	f
+ini_parse_stream	third-party/inih/ini.c	/^int ini_parse_stream(ini_reader reader, void* stream, ini_handler handler,$/;"	f
+ini_parse_string	third-party/inih/ini.c	/^int ini_parse_string(const char* string, ini_handler handler, void* user) {$/;"	f
+ini_parse_string_ctx	third-party/inih/ini.c	/^} ini_parse_string_ctx;$/;"	t	typeref:struct:__anon1	file:
+ini_reader	third-party/inih/ini.h	/^typedef char* (*ini_reader)(char* str, int num, void* stream);$/;"	t
+ini_reader_string	third-party/inih/ini.c	/^static char* ini_reader_string(char* str, int num, void* stream) {$/;"	f	file:
+is_integer_opt	include/common.h	/^    int is_integer_opt; \/* integer-valued optimization problem? *\/$/;"	m	struct:SearchSpace_
+iterations	include/common.h	/^    int iterations; \/* number of iterations for convergence *\/$/;"	m	struct:SearchSpace_
+k	include/common.h	/^    int k; \/* number of neighbours solutions to be considered *\/$/;"	m	struct:SearchSpace_
+key	include/ini_reader.h	/^        char *key;$/;"	m	struct:_IniItems
+left	include/common.h	/^    struct _Node *right, *left, *parent; \/* Pointers to the subtrees on the right, left and parent *\/$/;"	m	struct:_Node	typeref:struct:_Node::
+leftSide	include/common.h	/^    int leftSide; \/* flag to know which bird will be changed *\/$/;"	m	struct:SearchSpace_
+left_son	include/common.h	/^    char left_son; \/* Flag to identify whether the node is a son placed on the left or on the right *\/$/;"	m	struct:_Node
+limit	include/common.h	/^    int limit; \/* number of trial limits for each food source *\/$/;"	m	struct:SearchSpace_
+lskip	third-party/inih/ini.c	/^static char* lskip(const char* s)$/;"	f	file:
+m	include/common.h	/^    int m; \/* number of agents (solutions) *\/$/;"	m	struct:SearchSpace_
+main	examples/ABC.c	/^int main(){$/;"	f
+main	examples/AIWPSO.c	/^int main(){$/;"	f
+main	examples/BA.c	/^int main(){$/;"	f
+main	examples/BGSGP.c	/^int main(int argc, char **argv){$/;"	f
+main	examples/BHA.c	/^int main(){$/;"	f
+main	examples/CS.c	/^int main(){$/;"	f
+main	examples/CS_ini.c	/^int main() {$/;"	f
+main	examples/FA.c	/^int main(){$/;"	f
+main	examples/FPA.c	/^int main(){$/;"	f
+main	examples/GA.c	/^int main(){$/;"	f
+main	examples/GP.c	/^int main(int argc, char **argv){$/;"	f
+main	examples/GSGP.c	/^int main(int argc, char **argv){$/;"	f
+main	examples/HS.c	/^int main(){$/;"	f
+main	examples/IHS.c	/^int main(){$/;"	f
+main	examples/MBO.c	/^int main(){$/;"	f
+main	examples/PSF-HS.c	/^int main(){$/;"	f
+main	examples/PSO.c	/^int main(){$/;"	f
+main	examples/PSO_ini.c	/^int main() {$/;"	f
+main	examples/TensorABC.c	/^int main(){$/;"	f
+main	examples/TensorAIWPSO.c	/^int main(){$/;"	f
+main	examples/TensorBA.c	/^int main(){$/;"	f
+main	examples/TensorBHA.c	/^int main(){$/;"	f
+main	examples/TensorCS.c	/^int main(){$/;"	f
+main	examples/TensorFA.c	/^int main(){$/;"	f
+main	examples/TensorFPA.c	/^int main(){$/;"	f
+main	examples/TensorHS.c	/^int main(){$/;"	f
+main	examples/TensorIHS.c	/^int main(){$/;"	f
+main	examples/TensorPSF-HS.c	/^int main(){$/;"	f
+main	examples/TensorPSO.c	/^int main(){$/;"	f
+main	examples/WCA.c	/^int main(){$/;"	f
+max_depth	include/common.h	/^    int max_depth; \/* maximum depth of a tree *\/$/;"	m	struct:SearchSpace_
+min_depth	include/common.h	/^    int min_depth; \/* minimum depth of a tree *\/$/;"	m	struct:SearchSpace_
+n	include/common.h	/^    int n; \/* number of decision variables *\/$/;"	m	struct:Agent_
+n	include/common.h	/^    int n; \/* number of decision variables *\/$/;"	m	struct:SearchSpace_
+n_constants	include/common.h	/^    int n_constants; \/* number of constants *\/$/;"	m	struct:SearchSpace_
+n_functions	include/common.h	/^    int n_functions; \/* number of functions *\/$/;"	m	struct:SearchSpace_
+n_terminals	include/common.h	/^    int n_terminals; \/* number of terminals *\/$/;"	m	struct:SearchSpace_
+nb	include/common.h	/^    struct Agent_ **nb; \/* array of pointers to neighbours *\/$/;"	m	struct:Agent_	typeref:struct:Agent_::Agent_
+next	include/ini_reader.h	/^        struct _IniItems *next;$/;"	m	struct:_IniItems	typeref:struct:_IniItems::_IniItems
+nsr	include/common.h	/^    int nsr; \/* number of rivers *\/$/;"	m	struct:SearchSpace_
+num_left	third-party/inih/ini.c	/^    size_t num_left;$/;"	m	struct:__anon1	file:
+p	include/common.h	/^    double p; \/* probability of local pollination *\/$/;"	m	struct:SearchSpace_
+pCrossover	include/common.h	/^    double pCrossover; \/* probability of crossover *\/$/;"	m	struct:SearchSpace_
+pMutation	include/common.h	/^    double pMutation; \/* probability of mutation *\/$/;"	m	struct:SearchSpace_
+pReproduction	include/common.h	/^    double pReproduction; \/* probability of reproduction *\/$/;"	m	struct:SearchSpace_
+parent	include/common.h	/^    struct _Node *right, *left, *parent; \/* Pointers to the subtrees on the right, left and parent *\/$/;"	m	struct:_Node	typeref:struct:_Node::
+pfit	include/common.h	/^    double pfit; \/* fitness value of the previous iteration *\/$/;"	m	struct:Agent_
+prtFun	include/common.h	/^typedef double (*prtFun)(Agent *, va_list arg); \/* Pointer to the function used to evaluate agents *\/$/;"	t
+ptr	third-party/inih/ini.c	/^    const char* ptr;$/;"	m	struct:__anon1	file:
+r	include/common.h	/^    double r; \/* pulse rate *\/$/;"	m	struct:Agent_
+r	include/common.h	/^    double r; \/* pulse rate *\/$/;"	m	struct:SearchSpace_
+ran2	src/random.c	/^double ran2(int *idum){$/;"	f
+randGaussian	src/random.c	/^double randGaussian(double mean, double variance){$/;"	f
+randinter	src/random.c	/^double randinter(double a, double b){	$/;"	f
+randx	src/random.c	/^static int randx = 0; \/* copy of random seed (internal use only) *\/$/;"	v	file:
+right	include/common.h	/^    struct _Node *right, *left, *parent; \/* Pointers to the subtrees on the right, left and parent *\/$/;"	m	struct:_Node	typeref:struct:_Node::_Node
+rstrip	third-party/inih/ini.c	/^static char* rstrip(char* s)$/;"	f	file:
+runABC	src/abc.c	/^void runABC(SearchSpace *s, prtFun Evaluate, ...){$/;"	f
+runAIWPSO	src/pso.c	/^void runAIWPSO(SearchSpace *s, prtFun Evaluate, ...){$/;"	f
+runBA	src/ba.c	/^void runBA(SearchSpace *s, prtFun Evaluate, ...){$/;"	f
+runBGSGP	src/gp.c	/^void runBGSGP(SearchSpace *s, prtFun Evaluate, ...){$/;"	f
+runBHA	src/bha.c	/^void runBHA(SearchSpace *s, prtFun Evaluate, ...){$/;"	f
+runCS	src/cs.c	/^void runCS(SearchSpace *s, prtFun Evaluate, ...){$/;"	f
+runFA	src/fa.c	/^void runFA(SearchSpace *s, prtFun Evaluate, ...){$/;"	f
+runFPA	src/fpa.c	/^void runFPA(SearchSpace *s, prtFun Evaluate, ...){$/;"	f
+runGA	src/ga.c	/^void runGA(SearchSpace *s, prtFun Evaluate, ...){$/;"	f
+runGP	src/gp.c	/^void runGP(SearchSpace *s, prtFun Evaluate, ...){$/;"	f
+runGSGP	src/gp.c	/^void runGSGP(SearchSpace *s, prtFun Evaluate, ...){$/;"	f
+runHS	src/hs.c	/^void runHS(SearchSpace *s, prtFun Evaluate, ...){$/;"	f
+runIHS	src/hs.c	/^void runIHS(SearchSpace *s, prtFun Evaluate, ...){$/;"	f
+runMBO	src/mbo.c	/^void runMBO(SearchSpace *s, prtFun Evaluate, ...){$/;"	f
+runPSF_HS	src/hs.c	/^void runPSF_HS(SearchSpace *s, prtFun Evaluate, ...){$/;"	f
+runPSO	src/pso.c	/^void runPSO(SearchSpace *s, prtFun Evaluate, ...){$/;"	f
+runTensorABC	src/abc.c	/^void runTensorABC(SearchSpace *s, int tensor_id, prtFun Evaluate, ...){$/;"	f
+runTensorAIWPSO	src/pso.c	/^void runTensorAIWPSO(SearchSpace *s, int tensor_id, prtFun Evaluate, ...){$/;"	f
+runTensorBA	src/ba.c	/^void runTensorBA(SearchSpace *s, int tensor_id, prtFun Evaluate, ...){$/;"	f
+runTensorBHA	src/bha.c	/^void runTensorBHA(SearchSpace *s, int tensor_id, prtFun Evaluate, ...){$/;"	f
+runTensorCS	src/cs.c	/^void runTensorCS(SearchSpace *s, int tensor_id, prtFun Evaluate, ...){$/;"	f
+runTensorFA	src/fa.c	/^void runTensorFA(SearchSpace *s, int tensor_id, prtFun Evaluate, ...){$/;"	f
+runTensorFPA	src/fpa.c	/^void runTensorFPA(SearchSpace *s, int tensor_id, prtFun Evaluate, ...){$/;"	f
+runTensorHS	src/hs.c	/^void runTensorHS(SearchSpace *s, int tensor_id, prtFun Evaluate, ...){$/;"	f
+runTensorIHS	src/hs.c	/^void runTensorIHS(SearchSpace *s, int tensor_id, prtFun Evaluate, ...){$/;"	f
+runTensorPSF_HS	src/hs.c	/^void runTensorPSF_HS(SearchSpace *s, int tensor_id, prtFun Evaluate, ...){$/;"	f
+runTensorPSO	src/pso.c	/^void runTensorPSO(SearchSpace *s, int tensor_id, prtFun Evaluate, ...){$/;"	f
+runWCA	src/wca.c	/^void runWCA(SearchSpace *s, prtFun Evaluate, ...){$/;"	f
+searchspace	src/common.c	/^    SearchSpace* searchspace;$/;"	m	struct:__anon2	file:
+section	include/ini_reader.h	/^        char *section;$/;"	m	struct:_IniItems
+srandinter	src/random.c	/^int srandinter(int seed){	$/;"	f
+status	include/common.h	/^    int status; \/* It defines the status of a given node (TERMINAL|FUNCTION|CONSTANT|DATA) *\/$/;"	m	struct:_Node
+step	src/common.c	/^    int step;$/;"	m	struct:__anon2	file:
+strncpy0	third-party/inih/ini.c	/^static char* strncpy0(char* dest, const char* src, size_t size)$/;"	f	file:
+t	include/common.h	/^    double **t; \/* tensor *\/$/;"	m	struct:Agent_
+t_g	include/common.h	/^    double **t_g; \/* global best tensor *\/$/;"	m	struct:SearchSpace_
+t_v	include/common.h	/^    double **t_v; \/* tensor velocity *\/$/;"	m	struct:Agent_
+t_xl	include/common.h	/^    double **t_xl; \/* tensor local best *\/$/;"	m	struct:Agent_
+terminal	include/common.h	/^    char **terminal; \/* matrix with the terminals' names *\/$/;"	m	struct:SearchSpace_
+tree_fit	include/common.h	/^    double *tree_fit; \/* fitness of each tree (in GP, the number of agents is different from the number of trees) *\/$/;"	m	struct:SearchSpace_
+v	include/common.h	/^    double *v; \/* velocity *\/$/;"	m	struct:Agent_
+val	include/common.h	/^    double *val; \/* used for Geometric Semantic GP *\/$/;"	m	struct:_Node
+val	include/common.h	/^    double val;$/;"	m	struct:_Data
+value	include/ini_reader.h	/^        char *value;$/;"	m	struct:_IniItems
+w	include/common.h	/^    double w; \/* inertia weight *\/$/;"	m	struct:SearchSpace_
+w_max	include/common.h	/^    double w_max; \/* upper bound for w - used for adaptive inertia weight *\/$/;"	m	struct:SearchSpace_
+w_min	include/common.h	/^    double w_min; \/* lower bound for w - used for adaptive inertia weight *\/$/;"	m	struct:SearchSpace_
+x	include/common.h	/^    double *x; \/* position *\/$/;"	m	struct:Agent_
+xl	include/common.h	/^    double *xl; \/* local best *\/$/;"	m	struct:Agent_

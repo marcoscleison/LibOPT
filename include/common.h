@@ -53,6 +53,8 @@ typedef struct Agent_{
 
 /* It defines the search space */
 typedef struct SearchSpace_{
+    
+    int algorithm_id;
     /* common definitions */
     int m; /* number of agents (solutions) */
     int n; /* number of decision variables */
@@ -157,6 +159,9 @@ int SortAgent(const void *a, const void *b); /* It is used to sort by agent's fi
 int SortDataByVal(const void *a, const void *b); /* It is used to sort an array of Data by asceding order of the variable val */
 void WaiveComment(FILE *fp); /* It waives a comment in a model file */
 SearchSpace *ReadSearchSpaceFromFile(char *fileName, int opt_id); /* It loads a search space with parameters specified in a file */
+
+SearchSpace *ReadSearchSpaceFromIniFile(char *fileName);
+
 int getFUNCTIONid(char *s); /* It returns the identifier of the function used as input */
 int *RouletteSelection(SearchSpace *s, int k); /* It selects k elements based on the roulette selection method */
 /**************************/
